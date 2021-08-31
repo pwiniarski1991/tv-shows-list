@@ -45,7 +45,7 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ## App Overview
 
-App is made of two main components whose are list and table. First component is shown right away and present list of fetched tvShows while second component is shown when element on list are clicked and added to table. When you click on table row you will remove it but this will not affect list at all.
+App is made of two main components whose are list and table. First component is shown right away and present list of fetched tvShows while second component is shown when element on the list is clicked on then item is added to the table (second component). When you click on table row you will remove this item from table but this will not affect list at all.
 
 Redux toolkit was used as recomended setup by Redux docs so that why syntax and no explicit reducers are found.
 Also I decided to simple redux related structure instead of going by action_types being in separate file, as only one action type is defined like that for start_fetching DATA, while others are created automatically from createSlice function comming from redux toolkit.
